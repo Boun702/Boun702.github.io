@@ -6,6 +6,6 @@ function checkAge() {
     if (age >= 18) {
         document.getElementById("result").innerHTML ="  <button onclick=\"window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';\">ທ່ານກົງກັບເງື່ອນໄຂ click me!!</button>"
     } else {
-        document.getElementById("result").innerHTML = "ທ່ານຍັງເປັນເດັກນ້ອຍ!";
+        document.getElementById("result").innerHTML = "ອາຍຸຂອງທ່ານຍັງບໍ່ຕົງກັບເງື່ອນໄຂ ກະລຸນາລໍຖ້າຈົນກວ່າອາຍຸຂອງທ່ານຈະເຖິງ 18 ປີ";
     }
 }
